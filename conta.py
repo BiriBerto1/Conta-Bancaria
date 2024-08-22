@@ -6,7 +6,7 @@ class Conta:
 
     def consultar_saldo(self):
         print('='*30)
-        print(f'{self.titular} O saldo da sua conta é R${self.__saldo}')
+        print(f'O saldo da sua conta é R${self.__saldo}')
         print('='*30)
 
     def depositar(self):
